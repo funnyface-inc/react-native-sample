@@ -4,10 +4,11 @@
  * @author Yoshiya Ito <myon53@gmail.com>
  */
 import React, { Component } from 'react';
-import Weather from './components/Weather';
+//import Weather from './components/Weather';
+import PressDemo from './components/PressDemo';
 
 export default class App extends Component {
   render() {
-    return <Weather />;
+    return <PressDemo />;
   }
 }
